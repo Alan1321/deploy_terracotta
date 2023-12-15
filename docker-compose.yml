@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  terracotta-deploy:
+    build: .
+    volumes: 
+    - $HOME/.aws/config:/root/.aws/config:ro
+    - $HOME/.aws/credentials:/root/.aws/credentials:ro

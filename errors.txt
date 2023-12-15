@@ -1,0 +1,8 @@
+Error:
+Waiting for lambda function [tc-test997-development] to be updated...
+Error: Warning! Status check on the deployed lambda failed. A GET request to '/keys' yielded a 502 response code.
+
+Solution:
+
+pip install requests==2.28.2
+########################
